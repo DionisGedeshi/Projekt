@@ -1,0 +1,76 @@
+body {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #E2E2B6;
+    background-color: #021526;
+}
+
+/*#survey-form {
+    background-color: #2f18e7;
+}*/
+
+#header {
+    font-size: 140%;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+input, button, select, textarea {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+button {
+    border: none;
+}
+
+form {
+    padding: 0.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+#number {
+    width: 18%;
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+}
+
+.input-textarea {
+    min-height: 100px;
+    width: 30%;
+}
+
+#submit {
+    width: 30%;
+    height: 10%;
+    padding: 0.75rem;
+    cursor: pointer;
+    background-color: #258d33;
+    color: white;
+    font-size: 25px;
+}
+
+#name, #email, #number {
+    width: 18%;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
