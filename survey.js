@@ -8,14 +8,6 @@ submit.addEventListener('mouseout', function () {
     submit.style.backgroundColor = '#258d33';
 });
 
-/*
-submit.onclick(saveName());
-
-function setLocalData() {
-    localStorage.setItem('name', 'Dioni')
-}
-*/
-
 function saveName() {
     const name = document.getElementById('name').value;
     localStorage.setItem('name', name);
