@@ -40,7 +40,7 @@
             </select>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" id="opinion-form">
             <p style="font-size: 20px;">Do you like the page?</p>
             <label>
                 <input type="radio" name="opinion" value="yes" class="input-radio" checked>Yes</input>
@@ -56,22 +56,22 @@
             </label>
         </div>
 
-        <div>
+        <div id="improvements-list">
             <p style="font-size: 20px;">What improvements would you like to see on the page?</p>
             <label>
-                <input type="checkbox" value="better-design" class="input-checkbox">Better design</input>
+                <input type="checkbox" name="improvement" value="better-design" class="input-checkbox">Better design</input>
             </label>
             <label>
-                <input type="checkbox" value="make-email-optional" class="input-checkbox">Make email optional</input>
+                <input type="checkbox" name="improvement" value="make-email-optional" class="input-checkbox">Make email optional</input>
             </label>
             <label>
-                <input type="checkbox" value="make-age-optional" class="input-checkbox">Make age optional</input>
+                <input type="checkbox" name="improvement" value="make-age-optional" class="input-checkbox">Make age optional</input>
             </label>
             <label>
-                <input type="checkbox" value="make-role-optional" class="input-checkbox">Make role optional</input>
+                <input type="checkbox" name="improvement" value="make-role-optional" class="input-checkbox">Make role optional</input>
             </label>
             <label>
-                <input type="checkbox" value="bug-fixes" class="input-checkbox">Bug fixes</input>
+                <input type="checkbox" name="improvement" value="bug-fixes" class="input-checkbox">Bug fixes</input>
             </label>
         </div>
 
@@ -81,7 +81,7 @@
         </div>
 
         <div>
-            <button type="submit" id="submit">Submit</button>
+            <button type="submit" id="submit" onclick="saveName(), saveEmail(), saveAge(), saveRole(), saveOpinion(), saveImprovements(), saveComment()">Submit</button>
         </div>
         
     </form>
